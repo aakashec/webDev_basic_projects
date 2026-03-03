@@ -1,0 +1,27 @@
+[
+    {
+        "id": "a1",
+        "name": "Battle of the beast",
+        "dir": "songs/battleofthebeast.mp3",
+        "img": "thumnails/a1.png"
+    },
+    {
+        "id": "a2",
+        "name": "Imagine Dragons - Believer ",
+        "dir": "songs/Imagine Dragons - Believer (Official Music Video).mp3",
+        "img": "thumnails/a2.png"
+    },
+    {
+        "id": "a3",
+        "name": "The Night We Met ",
+        "dir": "songs/Lord Huron - The Night We Met (Official Audio).mp3",
+        "img": "https://upload.wikimedia.org/wikipedia/en/3/34/The_Night_We_Met.jpg"
+    },
+    {
+        "id": "a4",
+        "name": "Saiyyan - Kailash Khert",
+        "dir": "songs/Saiyyan - Kailash Kher Paresh Kamath Naresh Kamath Jhoomo Re.mp3",
+        "img": "https://c.saavncdn.com/753/Kailash-Kher-Silsilay-Hindi-2011-20180329191734-500x500.jpg"
+    }
+]
+
