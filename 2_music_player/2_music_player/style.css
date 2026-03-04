@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-top: 20vh; */
+    gap: 30vw;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(70, 70, 70);
+    margin-left: 0px;
+
+    /* flex-direction: column; */
+}
+
+.card {
+    height: 60vh;
+    width: 50vw;
+    /* border: 2px solid grey; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: 10px; */
+    gap: 5vh;
+    color: rgb(251, 251, 250);
+    background-color: rgb(70, 70, 70);
+
+
+}
+
+.thumbnial {
+    height: 25vh;
+    width: 15vw;
+    border: 3px solid rgb(241, 240, 240);
+    margin-top: 6vh;
+    border-radius: 50%;
+}
+
+.player {
+    height: 15vh;
+    width: 18vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+
+}
+
+.mName {
+    height: 4vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+
+
+
+}
+
+.controls {
+    height: 8vh;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+header {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    word-spacing: 5px;
+    font-size: 12px;
+}
+
+#list {
+
+    margin-left: 10vw;
+    color: white;
+    cursor: pointer;
+    width: 20vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#list :hover {
+    color: rgb(126, 126, 125);
+}
+
+h3 {
+    margin-left: 10vw;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    word-spacing: 4px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+        background-color: #222;
+    color: white;
+
+}
+
+.progress-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(249, 250, 250);
+}
+
+#progress{
+    flex: 1;
+    accent-color: rgb(225, 225, 224);
+   
+}
