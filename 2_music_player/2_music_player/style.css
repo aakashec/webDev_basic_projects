@@ -141,3 +141,66 @@ h3 {
     accent-color: rgb(225, 225, 224);
    
 }
+
+
+
+@media (max-width: 1000px) {
+
+    .container {
+        gap: 10vw;  
+    }
+
+    .card {
+        width: 70vw;
+    }
+
+    .thumbnial {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .player {
+        width: 40vw;
+    }
+
+    #list {
+        width: 30vw;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .container {
+        flex-direction: column;   
+        gap: 4vh;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        height: auto;
+    }
+
+    .card {
+        width: 90vw;
+        height: auto;
+    }
+
+    .thumbnial {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .player {
+        width: 80vw;
+    }
+
+    #list {
+        width: 80vw;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+}
