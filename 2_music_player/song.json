@@ -15,13 +15,13 @@
         "id": "a3",
         "name": "The Night We Met ",
         "dir": "songs/Lord Huron - The Night We Met (Official Audio).mp3",
-        "img": "https://upload.wikimedia.org/wikipedia/en/3/34/The_Night_We_Met.jpg"
+        "img": "thumnails/a3.png"
     },
     {
         "id": "a4",
         "name": "Saiyyan - Kailash Khert",
         "dir": "songs/Saiyyan - Kailash Kher Paresh Kamath Naresh Kamath Jhoomo Re.mp3",
-        "img": "https://c.saavncdn.com/753/Kailash-Kher-Silsilay-Hindi-2011-20180329191734-500x500.jpg"
+        "img": "thumnails/a4.png"
     }
 ]
 
