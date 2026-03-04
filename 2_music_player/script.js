@@ -73,6 +73,9 @@ function forwardBackword(data){
         domManipulation(data)
          audio.play();
             pause = false;
+                play.innerHTML = `
+            ⏸
+            `
         }
        },500) 
         
